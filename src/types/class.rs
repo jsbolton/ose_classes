@@ -1,4 +1,4 @@
-use std::{fmt::Display, ops::Not};
+use std::fmt::Display;
 
 use comfy_table::{Cell, CellAlignment, Table};
 use num_format::{Locale, ToFormattedString};
