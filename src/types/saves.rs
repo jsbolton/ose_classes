@@ -1,3 +1,5 @@
+use std::fmt::Display;
+
 use serde::Deserialize;
 use strum_macros::Display;
 
@@ -38,8 +40,9 @@ pub struct SaveTarget {
     pub target: i64,
 }
 
-impl ToString for SaveTarget {
-    fn to_string(&self) -> String {
-        format!("{} | {}", self.save, self.target)
+impl Display for SaveTarget {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{} | {}", self.save, self.target)?;
+        Ok(())
     }
 }
