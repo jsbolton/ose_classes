@@ -31,7 +31,8 @@
                     "save": "S",
                     "target": 16
                 }
-            ]
+            ],
+			"spells": []
         },
         {
             "level": 2,
@@ -63,7 +64,8 @@
                     "save": "S",
                     "target": 16
                 }
-            ]
+            ],
+			"spells": []
         },
         {
             "level": 3,
@@ -95,7 +97,8 @@
                     "save": "S",
                     "target": 16
                 }
-            ]
+            ],
+			"spells": []
         },
         {
             "level": 4,
@@ -127,7 +130,8 @@
                     "save": "S",
                     "target": 14
                 }
-            ]
+            ],
+			"spells": []
         },
         {
 			"level": 5,
@@ -159,7 +163,8 @@
                     "save": "S",
                     "target": 14
                 }
-            ]
+            ],
+			"spells": []
 		},
         {
 			"level": 6,
@@ -191,7 +196,8 @@
                     "save": "S",
                     "target": 14
                 }
-            ]
+            ],
+			"spells": []
 		},
         {
 			"level": 7,
@@ -223,7 +229,8 @@
                     "save": "S",
                     "target": 12
                 }
-            ]
+            ],
+			"spells": []
 		},
         {
 			"level": 8,
@@ -255,7 +262,8 @@
                     "save": "S",
                     "target": 12
                 }
-            ]
+            ],
+			"spells": []
 		},
         {
 			"level": 9,
@@ -287,7 +295,8 @@
                     "save": "S",
                     "target": 12
                 }
-            ]
+            ],
+			"spells": []
 		},
         {
 			"level": 10,
@@ -320,7 +329,8 @@
                     "save": "S",
                     "target": 10
                 }
-            ]
+            ],
+			"spells": []
 		},
         {
 			"level": 11,
@@ -353,7 +363,8 @@
                     "save": "S",
                     "target": 10
                 }
-            ]
+            ],
+			"spells": []
 		},
         {
 			"level": 12,
@@ -386,7 +397,8 @@
                     "save": "S",
                     "target": 10
                 }
-            ]
+            ],
+			"spells": []
 		},
         {
 			"level": 13,
@@ -419,7 +431,8 @@
                     "save": "S",
                     "target": 8
                 }
-            ]
+            ],
+			"spells": []
 		},
         {
 			"level": 14,
@@ -452,7 +465,8 @@
                     "save": "S",
                     "target": 8
                 }
-            ]
+            ],
+			"spells": []
 		}
     ],
     "source": "C",

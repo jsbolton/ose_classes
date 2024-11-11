@@ -1,6 +1,6 @@
 use serde::Deserialize;
 
-use super::{HitDie, SaveTarget};
+use super::{HitDie, SaveTarget, SpellSlot};
 
 #[derive(Default, Clone, Debug, Deserialize)]
 pub struct Level {
@@ -16,4 +16,6 @@ pub struct Level {
 
     #[serde(rename = "hd")]
     pub hit_die: HitDie,
+
+    pub spells: Vec<SpellSlot>,
 }

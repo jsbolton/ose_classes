@@ -1,4 +1,4 @@
-use std::fmt::Display;
+use std::{fmt::Display, ops::Not};
 
 use comfy_table::{Cell, CellAlignment, Table};
 use num_format::{Locale, ToFormattedString};
@@ -36,13 +36,21 @@ impl Display for Class {
         writeln!(f, "\nLevels")?;
 
         let mut table = Table::new();
-        table.set_header(vec![
+        let mut headers = vec![
             "Level",
             "XP",
             "HD",
             "Attack Mod",
             "Saves (D | R | H | B | S)",
-        ]);
+        ];
+
+        let _ = self.levels.first().map(|l| {
+            if !l.spells.is_empty() {
+                headers.push("Spells (Level:Slots)");
+            }
+        });
+
+        table.set_header(headers);
 
         self.levels.iter().for_each(|level| {
             let xp = level.experience_points.to_formatted_string(&Locale::en);
@@ -61,13 +69,27 @@ impl Display for Class {
                 .then(|| format!("+{}", &level.to_hit_modifier))
                 .unwrap_or_else(|| level.to_hit_modifier.to_string());
 
-            table.add_row(vec![
+            let mut columns = vec![
                 Cell::new(level.level.to_string()).set_alignment(CellAlignment::Center),
                 Cell::new(xp).set_alignment(CellAlignment::Center),
                 Cell::new(level.hit_die.clone()).set_alignment(CellAlignment::Center),
                 Cell::new(attack_mod).set_alignment(CellAlignment::Center),
                 Cell::new(saves).set_alignment(CellAlignment::Center),
-            ]);
+            ];
+
+            let spells = level
+                .spells
+                .clone()
+                .into_iter()
+                .map(|s| s.to_string())
+                .collect::<Vec<String>>()
+                .join(" | ");
+
+            if !spells.is_empty() {
+                columns.push(Cell::new(spells).set_alignment(CellAlignment::Center));
+            }
+
+            table.add_row(columns);
         });
 
         writeln!(f, "{table}")?;
