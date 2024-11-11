@@ -1,0 +1,460 @@
+{
+    "title": "Fighter",
+    "levels": [
+        {
+            "level": 1,
+            "xp": 0,
+            "mod": 0,
+			"hd": {
+				"type": 8,
+				"count": 1,
+				"con_mod_applies": true
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 12
+                },
+                {
+                    "save": "R",
+                    "target": 13
+                },
+                {
+                    "save": "H",
+                    "target": 14
+                },
+                {
+                    "save": "B",
+                    "target": 15
+                },
+                {
+                    "save": "S",
+                    "target": 16
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "xp": 2000,
+            "mod": 0,
+			"hd": {
+				"type": 8,
+				"count": 2,
+				"con_mod_applies": true
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 12
+                },
+                {
+                    "save": "R",
+                    "target": 13
+                },
+                {
+                    "save": "H",
+                    "target": 14
+                },
+                {
+                    "save": "B",
+                    "target": 15
+                },
+                {
+                    "save": "S",
+                    "target": 16
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "xp": 4000,
+            "mod": 0,
+			"hd": {
+				"type": 8,
+				"count": 3,
+				"con_mod_applies": true
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 12
+                },
+                {
+                    "save": "R",
+                    "target": 13
+                },
+                {
+                    "save": "H",
+                    "target": 14
+                },
+                {
+                    "save": "B",
+                    "target": 15
+                },
+                {
+                    "save": "S",
+                    "target": 16
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "xp": 8000,
+            "mod": 2,
+			"hd": {
+				"type": 8,
+				"count": 4,
+				"con_mod_applies": true
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 10
+                },
+                {
+                    "save": "R",
+                    "target": 11
+                },
+                {
+                    "save": "H",
+                    "target": 12
+                },
+                {
+                    "save": "B",
+                    "target": 13
+                },
+                {
+                    "save": "S",
+                    "target": 14
+                }
+            ]
+        },
+        {
+			"level": 5,
+            "xp": 16000,
+            "mod": 2,
+			"hd": {
+				"type": 8,
+				"count": 5,
+				"con_mod_applies": true
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 10
+                },
+                {
+                    "save": "R",
+                    "target": 11
+                },
+                {
+                    "save": "H",
+                    "target": 12
+                },
+                {
+                    "save": "B",
+                    "target": 13
+                },
+                {
+                    "save": "S",
+                    "target": 14
+                }
+            ]
+		},
+        {
+			"level": 6,
+            "xp": 32000,
+            "mod": 2,
+			"hd": {
+				"type": 8,
+				"count": 6,
+				"con_mod_applies": true
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 10
+                },
+                {
+                    "save": "R",
+                    "target": 11
+                },
+                {
+                    "save": "H",
+                    "target": 12
+                },
+                {
+                    "save": "B",
+                    "target": 13
+                },
+                {
+                    "save": "S",
+                    "target": 14
+                }
+            ]
+		},
+        {
+			"level": 7,
+            "xp": 64000,
+            "mod": 5,
+			"hd": {
+				"type": 8,
+				"count": 7,
+				"con_mod_applies": true
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 8
+                },
+                {
+                    "save": "R",
+                    "target": 9
+                },
+                {
+                    "save": "H",
+                    "target": 10
+                },
+                {
+                    "save": "B",
+                    "target": 10
+                },
+                {
+                    "save": "S",
+                    "target": 12
+                }
+            ]
+		},
+        {
+			"level": 8,
+            "xp": 120000,
+            "mod": 5,
+			"hd": {
+				"type": 8,
+				"count": 8,
+				"con_mod_applies": true
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 8
+                },
+                {
+                    "save": "R",
+                    "target": 9
+                },
+                {
+                    "save": "H",
+                    "target": 10
+                },
+                {
+                    "save": "B",
+                    "target": 10
+                },
+                {
+                    "save": "S",
+                    "target": 12
+                }
+            ]
+		},
+        {
+			"level": 9,
+            "xp": 240000,
+            "mod": 5,
+			"hd": {
+				"type": 8,
+				"count": 9,
+				"con_mod_applies": true
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 8
+                },
+                {
+                    "save": "R",
+                    "target": 9
+                },
+                {
+                    "save": "H",
+                    "target": 10
+                },
+                {
+                    "save": "B",
+                    "target": 10
+                },
+                {
+                    "save": "S",
+                    "target": 12
+                }
+            ]
+		},
+        {
+			"level": 10,
+            "xp": 360000,
+            "mod": 7,
+			"hd": {
+				"type": 8,
+				"count": 9,
+				"con_mod_applies": false,
+				"modifier": 2
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 6
+                },
+                {
+                    "save": "R",
+                    "target": 7
+                },
+                {
+                    "save": "H",
+                    "target": 8
+                },
+                {
+                    "save": "B",
+                    "target": 8
+                },
+                {
+                    "save": "S",
+                    "target": 10
+                }
+            ]
+		},
+        {
+			"level": 11,
+            "xp": 480000,
+            "mod": 7,
+			"hd": {
+				"type": 8,
+				"count": 9,
+				"con_mod_applies": false,
+				"modifier": 4
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 6
+                },
+                {
+                    "save": "R",
+                    "target": 7
+                },
+                {
+                    "save": "H",
+                    "target": 8
+                },
+                {
+                    "save": "B",
+                    "target": 8
+                },
+                {
+                    "save": "S",
+                    "target": 10
+                }
+            ]
+		},
+        {
+			"level": 12,
+            "xp": 600000,
+            "mod": 7,
+			"hd": {
+				"type": 8,
+				"count": 9,
+				"con_mod_applies": false,
+				"modifier": 6
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 6
+                },
+                {
+                    "save": "R",
+                    "target": 7
+                },
+                {
+                    "save": "H",
+                    "target": 8
+                },
+                {
+                    "save": "B",
+                    "target": 8
+                },
+                {
+                    "save": "S",
+                    "target": 10
+                }
+            ]
+		},
+        {
+			"level": 13,
+            "xp": 720000,
+            "mod": 9,
+			"hd": {
+				"type": 8,
+				"count": 9,
+				"con_mod_applies": false,
+				"modifier": 8
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 4
+                },
+                {
+                    "save": "R",
+                    "target": 5
+                },
+                {
+                    "save": "H",
+                    "target": 6
+                },
+                {
+                    "save": "B",
+                    "target": 5
+                },
+                {
+                    "save": "S",
+                    "target": 8
+                }
+            ]
+		},
+        {
+			"level": 14,
+            "xp": 840000,
+            "mod": 9,
+			"hd": {
+				"type": 8,
+				"count": 9,
+				"con_mod_applies": false,
+				"modifier": 10
+			},
+            "saves": [
+                {
+                    "save": "D",
+                    "target": 4
+                },
+                {
+                    "save": "R",
+                    "target": 5
+                },
+                {
+                    "save": "H",
+                    "target": 6
+                },
+                {
+                    "save": "B",
+                    "target": 5
+                },
+                {
+                    "save": "S",
+                    "target": 8
+                }
+            ]
+		}
+    ],
+    "source": "C",
+    "requirements": []
+}
