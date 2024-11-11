@@ -1,0 +1,15 @@
+{
+    "title": "Bard",
+    "levels": [],
+    "source": "A",
+    "requirements": [
+        {
+            "ability": "DEX",
+            "requirement": 9
+        },
+        {
+            "ability": "INT",
+            "requirement": 9
+        }
+    ]
+}

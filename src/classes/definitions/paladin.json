@@ -1,0 +1,11 @@
+{
+    "title": "Paladin",
+    "levels": [],
+    "source": "A",
+    "requirements": [
+        {
+            "ability": "CHA",
+            "requirement": 9
+        }
+    ]
+}

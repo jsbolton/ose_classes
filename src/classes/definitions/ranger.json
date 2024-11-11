@@ -1,0 +1,15 @@
+{
+    "title": "Ranger",
+    "levels": [],
+    "source": "A",
+    "requirements": [
+        {
+            "ability": "CON",
+            "requirement": 9
+        },
+        {
+            "ability": "WIS",
+            "requirement": 9
+        }
+    ]
+}

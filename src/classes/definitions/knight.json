@@ -1,0 +1,15 @@
+{
+    "title": "Knight",
+    "levels": [],
+    "source": "A",
+    "requirements": [
+        {
+            "ability": "DEX",
+            "requirement": 9
+        },
+        {
+            "ability": "CON",
+            "requirement": 9
+        }
+    ]
+}

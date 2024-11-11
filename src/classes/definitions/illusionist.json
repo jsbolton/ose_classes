@@ -1,0 +1,11 @@
+{
+    "title": "Illusionist",
+    "levels": [],
+    "source": "A",
+    "requirements": [
+        {
+            "ability": "DEX",
+            "requirement": 9
+        }
+    ]
+}
