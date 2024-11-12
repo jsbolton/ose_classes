@@ -36,7 +36,7 @@ use thief::Thief;
 
 use crate::types::{AvailableClass, Class};
 
-pub fn get_classes() -> Vec<Class> {
+fn get_classes() -> Vec<Class> {
     vec![
         Acolyte::describe(),
         Acrobat::describe(),
@@ -56,4 +56,8 @@ pub fn get_classes() -> Vec<Class> {
         Ranger::describe(),
         Thief::describe(),
     ]
+}
+
+pub fn available_classes() -> Vec<Class> {
+    get_classes()
 }
