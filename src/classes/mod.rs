@@ -32,9 +32,11 @@ use mage::Mage;
 use magic_user::MagicUser;
 use paladin::Paladin;
 use ranger::Ranger;
+use strum_macros::{Display, EnumString};
 use thief::Thief;
 
 use crate::types::{AvailableClass, Class};
+use serde::Deserialize;
 
 fn get_classes() -> Vec<Class> {
     vec![
@@ -60,4 +62,32 @@ fn get_classes() -> Vec<Class> {
 
 pub fn available_classes() -> Vec<Class> {
     get_classes()
+}
+
+#[derive(Eq, PartialEq, Deserialize, Display, Clone, Copy, EnumString)]
+pub enum CharacterClass {
+    Acolyte,
+    Acrobat,
+    Assassin,
+    Barbarian,
+    Bard,
+    BeastMaster,
+    Cleric,
+    Druid,
+    Fighter,
+    Illusionist,
+    Kineticist,
+    Knight,
+    Mage,
+    MagicUser,
+    Paladin,
+    Ranger,
+    Thief,
+}
+
+pub fn get_class(class: CharacterClass) -> Class {
+    match class {
+        CharacterClass::Thief => Thief::describe(),
+        _ => Class::default(),
+    }
 }
