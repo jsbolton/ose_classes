@@ -45,7 +45,7 @@ impl Display for Class {
         ];
 
         let _ = self.levels.first().map(|l| {
-            if !l.spells.is_empty() {
+            if l.spells.is_some() {
                 headers.push("Spells (Level:Slots)");
             }
         });
@@ -54,14 +54,6 @@ impl Display for Class {
 
         self.levels.iter().for_each(|level| {
             let xp = level.experience_points.to_formatted_string(&Locale::en);
-
-            let saves = level
-                .saves
-                .clone()
-                .into_iter()
-                .map(|l| l.target.to_string())
-                .collect::<Vec<String>>()
-                .join(" | ");
 
             let attack_mod = level
                 .to_hit_modifier
@@ -74,19 +66,11 @@ impl Display for Class {
                 Cell::new(xp).set_alignment(CellAlignment::Center),
                 Cell::new(level.hit_die.clone()).set_alignment(CellAlignment::Center),
                 Cell::new(attack_mod).set_alignment(CellAlignment::Center),
-                Cell::new(saves).set_alignment(CellAlignment::Center),
+                Cell::new(level.saves.clone()).set_alignment(CellAlignment::Center),
             ];
 
-            let spells = level
-                .spells
-                .clone()
-                .into_iter()
-                .map(|s| s.to_string())
-                .collect::<Vec<String>>()
-                .join(" | ");
-
-            if !spells.is_empty() {
-                columns.push(Cell::new(spells).set_alignment(CellAlignment::Center));
+            if let Some(spells) = level.spells.as_ref() {
+                columns.push(Cell::new(spells).set_alignment(CellAlignment::Center))
             }
 
             table.add_row(columns);

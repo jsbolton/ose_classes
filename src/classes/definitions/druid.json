@@ -1,708 +1,333 @@
 {
-    "title": "Druid",
-    "levels": [
-        {
-            "level": 1,
-            "xp": 0,
-            "mod": 0,
-            "hd": {
-                "type": 6,
-                "count": 1,
-                "con_mod_applies": true
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 11
-                },
-                {
-                    "save": "R",
-                    "target": 12
-                },
-                {
-                    "save": "H",
-                    "target": 14
-                },
-                {
-                    "save": "B",
-                    "target": 16
-                },
-                {
-                    "save": "S",
-                    "target": 15
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 1
-                }
-            ]
-        },
-        {
-            "level": 2,
-            "xp": 2000,
-            "mod": 0,
-            "hd": {
-                "type": 6,
-                "count": 2,
-                "con_mod_applies": true
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 11
-                },
-                {
-                    "save": "R",
-                    "target": 12
-                },
-                {
-                    "save": "H",
-                    "target": 14
-                },
-                {
-                    "save": "B",
-                    "target": 16
-                },
-                {
-                    "save": "S",
-                    "target": 15
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 2
-                }
-            ]
-        },
-        {
-            "level": 3,
-            "xp": 4000,
-            "mod": 0,
-            "hd": {
-                "type": 6,
-                "count": 3,
-                "con_mod_applies": true
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 11
-                },
-                {
-                    "save": "R",
-                    "target": 12
-                },
-                {
-                    "save": "H",
-                    "target": 14
-                },
-                {
-                    "save": "B",
-                    "target": 16
-                },
-                {
-                    "save": "S",
-                    "target": 15
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 2
-                },
-                {
-                    "level": 2,
-                    "slots": 1
-                }
-            ]
-        },
-        {
-            "level": 4,
-            "xp": 7500,
-            "mod": 0,
-            "hd": {
-                "type": 6,
-                "count": 4,
-                "con_mod_applies": true
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 11
-                },
-                {
-                    "save": "R",
-                    "target": 12
-                },
-                {
-                    "save": "H",
-                    "target": 14
-                },
-                {
-                    "save": "B",
-                    "target": 16
-                },
-                {
-                    "save": "S",
-                    "target": 15
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 2
-                },
-                {
-                    "level": 2,
-                    "slots": 2
-                }
-            ]
-        },
-        {
-            "level": 5,
-            "xp": 12500,
-            "mod": 2,
-            "hd": {
-                "type": 6,
-                "count": 5,
-                "con_mod_applies": true
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 9
-                },
-                {
-                    "save": "R",
-                    "target": 10
-                },
-                {
-                    "save": "H",
-                    "target": 12
-                },
-                {
-                    "save": "B",
-                    "target": 14
-                },
-                {
-                    "save": "S",
-                    "target": 12
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 2
-                },
-                {
-                    "level": 2,
-                    "slots": 2
-                },
-                {
-                    "level": 3,
-                    "slots": 1
-                },
-                {
-                    "level": 4,
-                    "slots": 1
-                }
-            ]
-        },
-        {
-            "level": 6,
-            "xp": 20000,
-            "mod": 2,
-            "hd": {
-                "type": 6,
-                "count": 6,
-                "con_mod_applies": true
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 9
-                },
-                {
-                    "save": "R",
-                    "target": 10
-                },
-                {
-                    "save": "H",
-                    "target": 12
-                },
-                {
-                    "save": "B",
-                    "target": 14
-                },
-                {
-                    "save": "S",
-                    "target": 12
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 2
-                },
-                {
-                    "level": 2,
-                    "slots": 2
-                },
-                {
-                    "level": 3,
-                    "slots": 2
-                },
-                {
-                    "level": 4,
-                    "slots": 1
-                },
-                {
-                    "level": 5,
-                    "slots": 1
-                }
-            ]
-        },
-        {
-            "level": 7,
-            "xp": 35000,
-            "mod": 2,
-            "hd": {
-                "type": 6,
-                "count": 7,
-                "con_mod_applies": true
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 9
-                },
-                {
-                    "save": "R",
-                    "target": 10
-                },
-                {
-                    "save": "H",
-                    "target": 12
-                },
-                {
-                    "save": "B",
-                    "target": 14
-                },
-                {
-                    "save": "S",
-                    "target": 12
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 3
-                },
-                {
-                    "level": 2,
-                    "slots": 3
-                },
-                {
-                    "level": 3,
-                    "slots": 2
-                },
-                {
-                    "level": 4,
-                    "slots": 2
-                },
-                {
-                    "level": 5,
-                    "slots": 1
-                }
-            ]
-        },
-        {
-            "level": 8,
-            "xp": 60000,
-            "mod": 2,
-            "hd": {
-                "type": 6,
-                "count": 8,
-                "con_mod_applies": true
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 9
-                },
-                {
-                    "save": "R",
-                    "target": 10
-                },
-                {
-                    "save": "H",
-                    "target": 12
-                },
-                {
-                    "save": "B",
-                    "target": 14
-                },
-                {
-                    "save": "S",
-                    "target": 12
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 3
-                },
-                {
-                    "level": 2,
-                    "slots": 3
-                },
-                {
-                    "level": 3,
-                    "slots": 3
-                },
-                {
-                    "level": 4,
-                    "slots": 2
-                },
-                {
-                    "level": 5,
-                    "slots": 2
-                }
-            ]
-        },
-        {
-            "level": 9,
-            "xp": 90000,
-            "mod": 5,
-            "hd": {
-                "type": 6,
-                "count": 9,
-                "con_mod_applies": true
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 6
-                },
-                {
-                    "save": "R",
-                    "target": 7
-                },
-                {
-                    "save": "H",
-                    "target": 9
-                },
-                {
-                    "save": "B",
-                    "target": 11
-                },
-                {
-                    "save": "S",
-                    "target": 9
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 4
-                },
-                {
-                    "level": 2,
-                    "slots": 4
-                },
-                {
-                    "level": 3,
-                    "slots": 3
-                },
-                {
-                    "level": 4,
-                    "slots": 3
-                },
-                {
-                    "level": 5,
-                    "slots": 2
-                }
-            ]
-        },
-        {
-            "level": 10,
-            "xp": 125000,
-            "mod": 5,
-            "hd": {
-                "type": 6,
-                "count": 9,
-                "con_mod_applies": false,
-                "modifier": 1
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 6
-                },
-                {
-                    "save": "R",
-                    "target": 7
-                },
-                {
-                    "save": "H",
-                    "target": 9
-                },
-                {
-                    "save": "B",
-                    "target": 11
-                },
-                {
-                    "save": "S",
-                    "target": 9
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 4
-                },
-                {
-                    "level": 2,
-                    "slots": 4
-                },
-                {
-                    "level": 3,
-                    "slots": 4
-                },
-                {
-                    "level": 4,
-                    "slots": 3
-                },
-                {
-                    "level": 5,
-                    "slots": 3
-                }
-            ]
-        },
-        {
-            "level": 11,
-            "xp": 200000,
-            "mod": 5,
-            "hd": {
-                "type": 6,
-                "count": 9,
-                "con_mod_applies": false,
-                "modifier": 2
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 6
-                },
-                {
-                    "save": "R",
-                    "target": 7
-                },
-                {
-                    "save": "H",
-                    "target": 9
-                },
-                {
-                    "save": "B",
-                    "target": 11
-                },
-                {
-                    "save": "S",
-                    "target": 9
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 5
-                },
-                {
-                    "level": 2,
-                    "slots": 5
-                },
-                {
-                    "level": 3,
-                    "slots": 4
-                },
-                {
-                    "level": 4,
-                    "slots": 4
-                },
-                {
-                    "level": 5,
-                    "slots": 3
-                }
-            ]
-        },
-        {
-            "level": 12,
-            "xp": 300000,
-            "mod": 5,
-            "hd": {
-                "type": 6,
-                "count": 9,
-                "con_mod_applies": false,
-                "modifier": 3
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 6
-                },
-                {
-                    "save": "R",
-                    "target": 7
-                },
-                {
-                    "save": "H",
-                    "target": 9
-                },
-                {
-                    "save": "B",
-                    "target": 11
-                },
-                {
-                    "save": "S",
-                    "target": 9
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 5
-                },
-                {
-                    "level": 2,
-                    "slots": 5
-                },
-                {
-                    "level": 3,
-                    "slots": 5
-                },
-                {
-                    "level": 4,
-                    "slots": 4
-                },
-                {
-                    "level": 5,
-                    "slots": 4
-                }
-            ]
-        },
-        {
-            "level": 13,
-            "xp": 750000,
-            "mod": 7,
-            "hd": {
-                "type": 6,
-                "count": 9,
-                "con_mod_applies": false,
-                "modifier": 4
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 3
-                },
-                {
-                    "save": "R",
-                    "target": 5
-                },
-                {
-                    "save": "H",
-                    "target": 7
-                },
-                {
-                    "save": "B",
-                    "target": 8
-                },
-                {
-                    "save": "S",
-                    "target": 7
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 6
-                },
-                {
-                    "level": 2,
-                    "slots": 5
-                },
-                {
-                    "level": 3,
-                    "slots": 5
-                },
-                {
-                    "level": 4,
-                    "slots": 5
-                },
-                {
-                    "level": 5,
-                    "slots": 4
-                }
-            ]
-        },
-        {
-            "level": 14,
-            "xp": 1500000,
-            "mod": 7,
-            "hd": {
-                "type": 6,
-                "count": 9,
-                "con_mod_applies": false,
-                "modifier": 5
-            },
-            "saves": [
-                {
-                    "save": "D",
-                    "target": 3
-                },
-                {
-                    "save": "R",
-                    "target": 5
-                },
-                {
-                    "save": "H",
-                    "target": 7
-                },
-                {
-                    "save": "B",
-                    "target": 8
-                },
-                {
-                    "save": "S",
-                    "target": 7
-                }
-            ],
-            "spells": [
-                {
-                    "level": 1,
-                    "slots": 6
-                },
-                {
-                    "level": 2,
-                    "slots": 6
-                },
-                {
-                    "level": 3,
-                    "slots": 5
-                },
-                {
-                    "level": 4,
-                    "slots": 5
-                },
-                {
-                    "level": 5,
-                    "slots": 5
-                }
-            ]
-        }
-    ],
-    "source": "A",
-    "requirements": []
+  "title": "Druid",
+  "levels": [
+    {
+      "level": 1,
+      "xp": 0,
+      "mod": 0,
+      "hd": {
+        "type": 6,
+        "count": 1,
+        "con_mod_applies": true
+      },
+      "saves": {
+        "D": 11,
+        "R": 12,
+        "H": 14,
+        "B": 16,
+        "S": 15
+      },
+      "spells": {
+        "1": 1
+      }
+    },
+    {
+      "level": 2,
+      "xp": 2000,
+      "mod": 0,
+      "hd": {
+        "type": 6,
+        "count": 2,
+        "con_mod_applies": true
+      },
+      "saves": {
+        "D": 11,
+        "R": 12,
+        "H": 14,
+        "B": 16,
+        "S": 15
+      },
+      "spells": {
+        "1": 2
+      }
+    },
+    {
+      "level": 3,
+      "xp": 4000,
+      "mod": 0,
+      "hd": {
+        "type": 6,
+        "count": 3,
+        "con_mod_applies": true
+      },
+      "saves": {
+        "D": 11,
+        "R": 12,
+        "H": 14,
+        "B": 16,
+        "S": 15
+      },
+      "spells": {
+        "1": 2,
+        "2": 1
+      }
+    },
+    {
+      "level": 4,
+      "xp": 7500,
+      "mod": 0,
+      "hd": {
+        "type": 6,
+        "count": 4,
+        "con_mod_applies": true
+      },
+      "saves": {
+        "D": 11,
+        "R": 12,
+        "H": 14,
+        "B": 16,
+        "S": 15
+      },
+      "spells": {
+        "1": 2,
+        "2": 2
+      }
+    },
+    {
+      "level": 5,
+      "xp": 12500,
+      "mod": 2,
+      "hd": {
+        "type": 6,
+        "count": 5,
+        "con_mod_applies": true
+      },
+      "saves": {
+        "D": 9,
+        "R": 10,
+        "H": 12,
+        "B": 14,
+        "S": 12
+      },
+      "spells": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "level": 6,
+      "xp": 20000,
+      "mod": 2,
+      "hd": {
+        "type": 6,
+        "count": 6,
+        "con_mod_applies": true
+      },
+      "saves": {
+        "D": 9,
+        "R": 10,
+        "H": 12,
+        "B": 14,
+        "S": 12
+      },
+      "spells": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 1,
+        "5": 1
+      }
+    },
+    {
+      "level": 7,
+      "xp": 35000,
+      "mod": 2,
+      "hd": {
+        "type": 6,
+        "count": 7,
+        "con_mod_applies": true
+      },
+      "saves": {
+        "D": 9,
+        "R": 10,
+        "H": 12,
+        "B": 14,
+        "S": 12
+      },
+      "spells": {
+        "1": 3,
+        "2": 3,
+        "3": 2,
+        "4": 2,
+        "5": 1
+      }
+    },
+    {
+      "level": 8,
+      "xp": 60000,
+      "mod": 2,
+      "hd": {
+        "type": 6,
+        "count": 8,
+        "con_mod_applies": true
+      },
+      "saves": {
+        "D": 9,
+        "R": 10,
+        "H": 12,
+        "B": 14,
+        "S": 12
+      },
+      "spells": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 2,
+        "5": 2
+      }
+    },
+    {
+      "level": 9,
+      "xp": 90000,
+      "mod": 5,
+      "hd": {
+        "type": 6,
+        "count": 9,
+        "con_mod_applies": true
+      },
+      "saves": {
+        "D": 6,
+        "R": 7,
+        "H": 9,
+        "B": 11,
+        "S": 9
+      },
+      "spells": {
+        "1": 4,
+        "2": 4,
+        "3": 3,
+        "4": 3,
+        "5": 2
+      }
+    },
+    {
+      "level": 10,
+      "xp": 125000,
+      "mod": 5,
+      "hd": {
+        "type": 6,
+        "count": 9,
+        "con_mod_applies": false,
+        "modifier": 1
+      },
+      "saves": {
+        "D": 6,
+        "R": 7,
+        "H": 9,
+        "B": 11,
+        "S": 9
+      },
+      "spells": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 3,
+        "5": 3
+      }
+    },
+    {
+      "level": 11,
+      "xp": 200000,
+      "mod": 5,
+      "hd": {
+        "type": 6,
+        "count": 9,
+        "con_mod_applies": false,
+        "modifier": 2
+      },
+      "saves": {
+        "D": 6,
+        "R": 7,
+        "H": 9,
+        "B": 11,
+        "S": 9
+      },
+      "spells": {
+        "1": 5,
+        "2": 5,
+        "3": 4,
+        "4": 4,
+        "5": 3
+      }
+    },
+    {
+      "level": 12,
+      "xp": 300000,
+      "mod": 5,
+      "hd": {
+        "type": 6,
+        "count": 9,
+        "con_mod_applies": false,
+        "modifier": 3
+      },
+      "saves": {
+        "D": 6,
+        "R": 7,
+        "H": 9,
+        "B": 11,
+        "S": 9
+      },
+      "spells": {
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 4,
+        "5": 4
+      }
+    },
+    {
+      "level": 13,
+      "xp": 750000,
+      "mod": 7,
+      "hd": {
+        "type": 6,
+        "count": 9,
+        "con_mod_applies": false,
+        "modifier": 4
+      },
+      "saves": {
+        "D": 3,
+        "R": 5,
+        "H": 7,
+        "B": 8,
+        "S": 7
+      },
+      "spells": {
+        "1": 6,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 4
+      }
+    },
+    {
+      "level": 14,
+      "xp": 1500000,
+      "mod": 7,
+      "hd": {
+        "type": 6,
+        "count": 9,
+        "con_mod_applies": false,
+        "modifier": 5
+      },
+      "saves": {
+        "D": 3,
+        "R": 5,
+        "H": 7,
+        "B": 8,
+        "S": 7
+      },
+      "spells": {
+        "1": 6,
+        "2": 6,
+        "3": 5,
+        "4": 5,
+        "5": 5
+      }
+    }
+  ],
+  "source": "A",
+  "requirements": []
 }

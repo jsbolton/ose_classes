@@ -1,48 +1,33 @@
 use std::fmt::Display;
 
 use serde::Deserialize;
-use strum_macros::Display;
 
-#[derive(Clone, Display, Debug, Deserialize)]
-pub enum Saves {
-    /// Alt: Death or Poison
-    #[strum(to_string = "D")]
+#[derive(Default, Clone, Deserialize, Debug)]
+pub struct Saves {
     #[serde(rename = "D")]
-    Doom,
+    pub doom: i64,
 
-    /// Alt: Wands
-    #[strum(to_string = "R")]
     #[serde(rename = "R")]
-    Ray,
+    pub ray: i64,
 
-    /// Alt: Paralysis or Petrification
-    #[strum(to_string = "H")]
     #[serde(rename = "H")]
-    Hold,
+    pub hold: i64,
 
-    /// Alt: Breath attacks
-    #[strum(to_string = "B")]
     #[serde(rename = "B")]
-    Blast,
+    pub blast: i64,
 
-    /// Alt: Spells, Rods, or Staves
-    #[strum(to_string = "S")]
     #[serde(rename = "S")]
-    Spell,
+    pub spell: i64,
 }
 
-#[derive(Clone, Debug, Deserialize)]
-pub struct SaveTarget {
-    /// Type of Save to roll against
-    pub save: Saves,
-
-    /// Target value to match or beat to succeed save
-    pub target: i64,
-}
-
-impl Display for SaveTarget {
+impl Display for Saves {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        write!(f, "{} | {}", self.save, self.target)?;
+        write!(
+            f,
+            " {} | {} | {} | {} | {} ",
+            self.doom, self.ray, self.hold, self.blast, self.spell
+        )?;
+
         Ok(())
     }
 }
