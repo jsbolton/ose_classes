@@ -1,6 +1,83 @@
 {
     "title": "Kineticist",
-    "levels": [],
+    "levels": [
+        {
+            "level": 1,
+            "xp": 0,
+            "mod": 0,
+            "hd": {
+                "type": 6,
+                "count": 1,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 13,
+                "R": 14,
+                "H": 13,
+                "B": 16,
+                "S": 15
+            },
+            "ac": 10,
+            "powers": 3
+        },
+        {
+            "level": 2,
+            "xp": 2000,
+            "mod": 0,
+            "hd": {
+                "type": 6,
+                "count": 2,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 13,
+                "R": 14,
+                "H": 13,
+                "B": 16,
+                "S": 15
+            },
+            "ac": 11,
+            "powers": 3
+        },
+        {
+            "level": 3,
+            "xp": 4000,
+            "mod": 0,
+            "hd": {
+                "type": 6,
+                "count": 3,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 13,
+                "R": 14,
+                "H": 13,
+                "B": 16,
+                "S": 15
+            },
+            "ac": 12,
+            "powers": 4
+        },
+        {
+            "level": 4,
+            "xp": 8000,
+            "mod": 0,
+            "hd": {
+                "type": 6,
+                "count": 4,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 13,
+                "R": 14,
+                "H": 13,
+                "B": 16,
+                "S": 15
+            },
+            "ac": 13,
+            "powers": 4
+        }
+    ],
     "source": "CC1",
     "requirements": []
 }
