@@ -82,10 +82,6 @@ impl Display for Class {
     }
 }
 
-pub trait AvailableClass {
-    fn describe() -> Class;
-}
-
 #[derive(Default, Clone, Debug, Eq, PartialEq, Display, Deserialize)]
 pub enum Source {
     #[default]

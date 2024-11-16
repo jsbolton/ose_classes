@@ -1,70 +1,8 @@
-mod acolyte;
-mod acrobat;
-mod assassin;
-mod barbarian;
-mod bard;
-mod beast_master;
-mod cleric;
-mod druid;
-mod fighter;
-mod illusionist;
-mod kineticist;
-mod knight;
-mod mage;
-mod magic_user;
-mod paladin;
-mod ranger;
-mod thief;
-
-use acolyte::Acolyte;
-use acrobat::Acrobat;
-use assassin::Assassin;
-use barbarian::Barbarian;
-use bard::Bard;
-use beast_master::BeastMaster;
-use cleric::Cleric;
-use druid::Druid;
-use fighter::Fighter;
-use illusionist::Illusionist;
-use kineticist::Kineticist;
-use knight::Knight;
-use mage::Mage;
-use magic_user::MagicUser;
-use paladin::Paladin;
-use ranger::Ranger;
 use strum_macros::{Display, EnumString};
-use thief::Thief;
 
-use crate::types::{AvailableClass, Class};
-use serde::Deserialize;
+use crate::types::Class;
 
-fn get_classes() -> Vec<Class> {
-    vec![
-        Acolyte::describe(),
-        Acrobat::describe(),
-        Assassin::describe(),
-        Barbarian::describe(),
-        Bard::describe(),
-        BeastMaster::describe(),
-        Cleric::describe(),
-        Druid::describe(),
-        Fighter::describe(),
-        Illusionist::describe(),
-        Kineticist::describe(),
-        Knight::describe(),
-        Mage::describe(),
-        MagicUser::describe(),
-        Paladin::describe(),
-        Ranger::describe(),
-        Thief::describe(),
-    ]
-}
-
-pub fn available_classes() -> Vec<Class> {
-    get_classes()
-}
-
-#[derive(Eq, PartialEq, Deserialize, Display, Clone, Copy, EnumString)]
+#[derive(EnumString, Display)]
 pub enum CharacterClass {
     Acolyte,
     Acrobat,
@@ -85,9 +23,30 @@ pub enum CharacterClass {
     Thief,
 }
 
-pub fn get_class(class: CharacterClass) -> Class {
-    match class {
-        CharacterClass::Thief => Thief::describe(),
-        _ => Class::default(),
+impl CharacterClass {
+    pub fn describe(&self) -> Class {
+        match self {
+            Self::Acolyte => load_class_def(include_str!("definitions/acolyte.json")),
+            Self::Acrobat => load_class_def(include_str!("definitions/acrobat.json")),
+            Self::Assassin => load_class_def(include_str!("definitions/assassin.json")),
+            Self::Barbarian => load_class_def(include_str!("definitions/barbarian.json")),
+            Self::Bard => load_class_def(include_str!("definitions/bard.json")),
+            Self::BeastMaster => load_class_def(include_str!("definitions/beast_master.json")),
+            Self::Cleric => load_class_def(include_str!("definitions/cleric.json")),
+            Self::Druid => load_class_def(include_str!("definitions/druid.json")),
+            Self::Fighter => load_class_def(include_str!("definitions/fighter.json")),
+            Self::Illusionist => load_class_def(include_str!("definitions/illusionist.json")),
+            Self::Kineticist => load_class_def(include_str!("definitions/kineticist.json")),
+            Self::Knight => load_class_def(include_str!("definitions/knight.json")),
+            Self::Mage => load_class_def(include_str!("definitions/mage.json")),
+            Self::MagicUser => load_class_def(include_str!("definitions/magic_user.json")),
+            Self::Paladin => load_class_def(include_str!("definitions/paladin.json")),
+            Self::Ranger => load_class_def(include_str!("definitions/ranger.json")),
+            Self::Thief => load_class_def(include_str!("definitions/thief.json")),
+        }
     }
+}
+
+fn load_class_def(class_def: &str) -> Class {
+    serde_json::from_str(class_def).expect("JSON was not well formatted")
 }
