@@ -18,6 +18,24 @@ pub struct Class {
     pub requirements: Vec<AbilityRequirement>,
 }
 
+impl Class {
+    fn has_spells(&self) -> bool {
+        self.levels.iter().any(|l| l.spells.is_some())
+    }
+
+    fn has_ac(&self) -> bool {
+        self.levels.iter().any(|l| l.ac.is_some())
+    }
+
+    fn has_powers(&self) -> bool {
+        self.levels.iter().any(|l| l.powers.is_some())
+    }
+
+    fn has_skills(&self) -> bool {
+        self.levels.iter().any(|l| l.skills.is_some())
+    }
+}
+
 impl Display for Class {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         writeln!(f, "{}", self.title)?;
@@ -44,23 +62,21 @@ impl Display for Class {
             "Saves (D | R | H | B | S)",
         ];
 
-        let _ = self.levels.first().map(|l| {
-            if l.spells.is_some() {
-                headers.push("Spells (Level:Slots)");
-            }
+        if self.has_spells() {
+            headers.push("Spells (Level:Slots)");
+        }
 
-            if l.ac.is_some() {
-                headers.push("AC");
-            }
+        if self.has_ac() {
+            headers.push("AC");
+        }
 
-            if l.powers.is_some() {
-                headers.push("Powers");
-            }
+        if self.has_powers() {
+            headers.push("Powers");
+        }
 
-            if l.skills.is_some() {
-                headers.push("Skills");
-            }
-        });
+        if self.has_skills() {
+            headers.push("Skills");
+        }
 
         table.set_header(headers);
 
