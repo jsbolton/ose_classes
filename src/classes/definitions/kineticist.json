@@ -36,8 +36,7 @@
                 "B": 16,
                 "S": 15
             },
-            "ac": 11,
-            "powers": 3
+            "ac": 11
         },
         {
             "level": 3,
@@ -56,7 +55,7 @@
                 "S": 15
             },
             "ac": 12,
-            "powers": 4
+            "powers": 1
         },
         {
             "level": 4,
@@ -74,8 +73,197 @@
                 "B": 16,
                 "S": 15
             },
-            "ac": 13,
-            "powers": 4
+            "ac": 13
+        },
+        {
+            "level": 5,
+            "xp": 16000,
+            "mod": 2,
+            "hd": {
+                "type": 6,
+                "count": 5,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 12,
+                "R": 13,
+                "H": 11,
+                "B": 14,
+                "S": 13
+            },
+            "ac": 14,
+            "powers": 1
+        },
+        {
+            "level": 6,
+            "xp": 32000,
+            "mod": 2,
+            "hd": {
+                "type": 6,
+                "count": 6,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 12,
+                "R": 13,
+                "H": 11,
+                "B": 14,
+                "S": 13
+            },
+            "ac": 15
+        },
+        {
+            "level": 7,
+            "xp": 64000,
+            "mod": 2,
+            "hd": {
+                "type": 6,
+                "count": 7,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 12,
+                "R": 13,
+                "H": 11,
+                "B": 14,
+                "S": 13
+            },
+            "ac": 16,
+            "powers": 1
+        },
+        {
+            "level": 8,
+            "xp": 120000,
+            "mod": 2,
+            "hd": {
+                "type": 6,
+                "count": 8,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 12,
+                "R": 13,
+                "H": 11,
+                "B": 14,
+                "S": 13
+            },
+            "ac": 17
+        },
+        {
+            "level": 9,
+            "xp": 240000,
+            "mod": 5,
+            "hd": {
+                "type": 6,
+                "count": 9,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 10,
+                "R": 11,
+                "H": 9,
+                "B": 12,
+                "S": 10
+            },
+            "ac": 18,
+            "powers": 1
+        },
+        {
+            "level": 10,
+            "xp": 360000,
+            "mod": 5,
+            "hd": {
+                "type": 6,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 2
+            },
+            "saves": {
+                "D": 10,
+                "R": 11,
+                "H": 9,
+                "B": 12,
+                "S": 10
+            },
+            "ac": 19
+        },
+        {
+            "level": 11,
+            "xp": 480000,
+            "mod": 5,
+            "hd": {
+                "type": 6,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 4
+            },
+            "saves": {
+                "D": 10,
+                "R": 11,
+                "H": 9,
+                "B": 12,
+                "S": 10
+            },
+            "ac": 20,
+            "powers": 1
+        },
+        {
+            "level": 12,
+            "xp": 600000,
+            "mod": 5,
+            "hd": {
+                "type": 6,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 6
+            },
+            "saves": {
+                "D": 10,
+                "R": 11,
+                "H": 9,
+                "B": 12,
+                "S": 10
+            },
+            "ac": 21
+        },
+        {
+            "level": 13,
+            "xp": 720000,
+            "mod": 7,
+            "hd": {
+                "type": 6,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 8
+            },
+            "saves": {
+                "D": 8,
+                "R": 9,
+                "H": 7,
+                "B": 10,
+                "S": 8
+            },
+            "ac": 22,
+            "powers": 1
+        },
+        {
+            "level": 14,
+            "xp": 840000,
+            "mod": 7,
+            "hd": {
+                "type": 6,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 10
+            },
+            "saves": {
+                "D": 8,
+                "R": 9,
+                "H": 7,
+                "B": 10,
+                "S": 8
+            },
+            "ac": 22
         }
     ],
     "source": "CC1",
