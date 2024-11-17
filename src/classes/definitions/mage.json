@@ -1,6 +1,264 @@
 {
     "title": "Mage",
-    "levels": [],
+    "levels": [
+        {
+            "level": 1,
+            "xp": 0,
+            "mod": 0,
+            "hd": {
+                "type": 6,
+                "count": 1,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 12,
+                "R": 13,
+                "H": 11,
+                "B": 15,
+                "S": 14
+            },
+            "skills": 7
+        },
+        {
+            "level": 2,
+            "xp": 2800,
+            "mod": 0,
+            "hd": {
+                "type": 6,
+                "count": 2,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 12,
+                "R": 13,
+                "H": 11,
+                "B": 15,
+                "S": 14
+            },
+            "skills": 1
+        },
+        {
+            "level": 3,
+            "xp": 5600,
+            "mod": 0,
+            "hd": {
+                "type": 6,
+                "count": 3,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 12,
+                "R": 13,
+                "H": 11,
+                "B": 15,
+                "S": 14
+            },
+            "skills": 1
+        },
+        {
+            "level": 4,
+            "xp": 12000,
+            "mod": 0,
+            "hd": {
+                "type": 6,
+                "count": 4,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 12,
+                "R": 13,
+                "H": 11,
+                "B": 15,
+                "S": 14
+            },
+            "skills": 1
+        },
+        {
+            "level": 5,
+            "xp": 24000,
+            "mod": 0,
+            "hd": {
+                "type": 6,
+                "count": 5,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 12,
+                "R": 13,
+                "H": 11,
+                "B": 15,
+                "S": 14
+            },
+            "skills": 1
+        },
+        {
+            "level": 6,
+            "xp": 48000,
+            "mod": 2,
+            "hd": {
+                "type": 6,
+                "count": 6,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 10,
+                "R": 11,
+                "H": 10,
+                "B": 13,
+                "S": 11
+            },
+            "skills": 1
+        },
+        {
+            "level": 7,
+            "xp": 100000,
+            "mod": 2,
+            "hd": {
+                "type": 6,
+                "count": 7,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 10,
+                "R": 11,
+                "H": 10,
+                "B": 13,
+                "S": 11
+            },
+            "skills": 1
+        },
+        {
+            "level": 8,
+            "xp": 200000,
+            "mod": 2,
+            "hd": {
+                "type": 6,
+                "count": 8,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 10,
+                "R": 11,
+                "H": 10,
+                "B": 13,
+                "S": 11
+            },
+            "skills": 1
+        },
+        {
+            "level": 9,
+            "xp": 400000,
+            "mod": 2,
+            "hd": {
+                "type": 6,
+                "count": 9,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 10,
+                "R": 11,
+                "H": 10,
+                "B": 13,
+                "S": 11
+            },
+            "skills": 1
+        },
+        {
+            "level": 10,
+            "xp": 560000,
+            "mod": 2,
+            "hd": {
+                "type": 6,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 1
+            },
+            "saves": {
+                "D": 10,
+                "R": 11,
+                "H": 10,
+                "B": 13,
+                "S": 11
+            },
+            "skills": 1
+        },
+        {
+            "level": 11,
+            "xp": 720000,
+            "mod": 5,
+            "hd": {
+                "type": 6,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 2
+            },
+            "saves": {
+                "D": 7,
+                "R": 8,
+                "H": 7,
+                "B": 10,
+                "S": 7
+            },
+            "skills": 1
+        },
+        {
+            "level": 12,
+            "xp": 980000,
+            "mod": 5,
+            "hd": {
+                "type": 6,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 3
+            },
+            "saves": {
+                "D": 7,
+                "R": 8,
+                "H": 7,
+                "B": 10,
+                "S": 7
+            },
+            "skills": 1
+        },
+        {
+            "level": 13,
+            "xp": 1140000,
+            "mod": 5,
+            "hd": {
+                "type": 6,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 4
+            },
+            "saves": {
+                "D": 7,
+                "R": 8,
+                "H": 7,
+                "B": 10,
+                "S": 7
+            },
+            "skills": 1
+        },
+        {
+            "level": 14,
+            "xp": 1300000,
+            "mod": 5,
+            "hd": {
+                "type": 6,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 5
+            },
+            "saves": {
+                "D": 7,
+                "R": 8,
+                "H": 7,
+                "B": 10,
+                "S": 7
+            },
+            "skills": 1
+        }
+    ],
     "source": "CC1",
     "requirements": []
 }
