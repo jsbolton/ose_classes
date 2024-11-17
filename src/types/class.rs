@@ -48,6 +48,18 @@ impl Display for Class {
             if l.spells.is_some() {
                 headers.push("Spells (Level:Slots)");
             }
+
+            if l.ac.is_some() {
+                headers.push("AC");
+            }
+
+            if l.powers.is_some() {
+                headers.push("Powers");
+            }
+
+            if l.skills.is_some() {
+                headers.push("Skills");
+            }
         });
 
         table.set_header(headers);
@@ -71,6 +83,18 @@ impl Display for Class {
 
             if let Some(spells) = level.spells.as_ref() {
                 columns.push(Cell::new(spells).set_alignment(CellAlignment::Center))
+            }
+
+            if let Some(ac) = level.ac.as_ref() {
+                columns.push(Cell::new(ac).set_alignment(CellAlignment::Center))
+            }
+
+            if let Some(powers) = level.powers.as_ref() {
+                columns.push(Cell::new(powers).set_alignment(CellAlignment::Center))
+            }
+
+            if let Some(skills) = level.skills.as_ref() {
+                columns.push(Cell::new(skills).set_alignment(CellAlignment::Center))
             }
 
             table.add_row(columns);
