@@ -1,6 +1,250 @@
 {
     "title": "Paladin",
-    "levels": [],
+    "levels": [
+        {
+            "level": 1,
+            "xp": 0,
+            "mod": 0,
+            "hd": {
+                "type": 8,
+                "count": 1,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 10,
+                "R": 11,
+                "H": 12,
+                "B": 13,
+                "S": 14
+            }
+        },
+        {
+            "level": 2,
+            "xp": 2750,
+            "mod": 0,
+            "hd": {
+                "type": 8,
+                "count": 2,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 10,
+                "R": 11,
+                "H": 12,
+                "B": 13,
+                "S": 14
+            }
+        },
+        {
+            "level": 3,
+            "xp": 5500,
+            "mod": 0,
+            "hd": {
+                "type": 8,
+                "count": 3,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 10,
+                "R": 11,
+                "H": 12,
+                "B": 13,
+                "S": 14
+            }
+        },
+        {
+            "level": 4,
+            "xp": 12000,
+            "mod": 2,
+            "hd": {
+                "type": 8,
+                "count": 4,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 8,
+                "R": 9,
+                "H": 10,
+                "B": 11,
+                "S": 12
+            }
+        },
+        {
+            "level": 5,
+            "xp": 24000,
+            "mod": 2,
+            "hd": {
+                "type": 8,
+                "count": 5,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 8,
+                "R": 9,
+                "H": 10,
+                "B": 11,
+                "S": 12
+            }
+        },
+        {
+            "level": 6,
+            "xp": 45000,
+            "mod": 2,
+            "hd": {
+                "type": 8,
+                "count": 6,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 8,
+                "R": 9,
+                "H": 10,
+                "B": 11,
+                "S": 12
+            }
+        },
+        {
+            "level": 7,
+            "xp": 95000,
+            "mod": 5,
+            "hd": {
+                "type": 8,
+                "count": 7,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 6,
+                "R": 7,
+                "H": 8,
+                "B": 8,
+                "S": 10
+            }
+        },
+        {
+            "level": 8,
+            "xp": 175000,
+            "mod": 5,
+            "hd": {
+                "type": 8,
+                "count": 8,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 6,
+                "R": 7,
+                "H": 8,
+                "B": 8,
+                "S": 10
+            }
+        },
+        {
+            "level": 9,
+            "xp": 350000,
+            "mod": 5,
+            "hd": {
+                "type": 8,
+                "count": 9,
+                "con_mod_applies": true
+            },
+            "saves": {
+                "D": 6,
+                "R": 7,
+                "H": 8,
+                "B": 8,
+                "S": 10
+            }
+        },
+        {
+            "level": 10,
+            "xp": 500000,
+            "mod": 7,
+            "hd": {
+                "type": 8,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 2
+            },
+            "saves": {
+                "D": 4,
+                "R": 5,
+                "H": 6,
+                "B": 6,
+                "S": 8
+            }
+        },
+        {
+            "level": 11,
+            "xp": 650000,
+            "mod": 7,
+            "hd": {
+                "type": 8,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 4
+            },
+            "saves": {
+                "D": 4,
+                "R": 5,
+                "H": 6,
+                "B": 6,
+                "S": 8
+            }
+        },
+        {
+            "level": 12,
+            "xp": 800000,
+            "mod": 7,
+            "hd": {
+                "type": 8,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 6
+            },
+            "saves": {
+                "D": 4,
+                "R": 5,
+                "H": 6,
+                "B": 6,
+                "S": 8
+            }
+        },
+        {
+            "level": 13,
+            "xp": 950000,
+            "mod": 9,
+            "hd": {
+                "type": 8,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 8
+            },
+            "saves": {
+                "D": 2,
+                "R": 3,
+                "H": 4,
+                "B": 3,
+                "S": 6
+            }
+        },
+        {
+            "level": 13,
+            "xp": 1100000,
+            "mod": 9,
+            "hd": {
+                "type": 8,
+                "count": 9,
+                "con_mod_applies": false,
+                "modifier": 10
+            },
+            "saves": {
+                "D": 2,
+                "R": 3,
+                "H": 4,
+                "B": 3,
+                "S": 6
+            }
+        }
+    ],
     "source": "A",
     "requirements": [
         {
