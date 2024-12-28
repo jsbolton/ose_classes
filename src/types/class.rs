@@ -3,7 +3,7 @@ use std::fmt::Display;
 use comfy_table::{Cell, CellAlignment, Table};
 use num_format::{Locale, ToFormattedString};
 use serde::Deserialize;
-use strum_macros::Display;
+use strum::Display;
 
 use super::{AbilityRequirement, Level};
 

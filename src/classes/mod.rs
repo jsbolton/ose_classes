@@ -1,8 +1,9 @@
-use strum_macros::{Display, EnumString};
+use strum::{Display, EnumString};
 
 use crate::types::Class;
 
 #[derive(EnumString, Display)]
+#[strum(ascii_case_insensitive)]
 pub enum CharacterClass {
     Acolyte,
     Acrobat,

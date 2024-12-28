@@ -1,5 +1,5 @@
 use serde::Deserialize;
-use strum_macros::Display;
+use strum::Display;
 
 #[derive(Debug, Eq, PartialEq, Display, Clone, Deserialize)]
 pub enum Ability {
