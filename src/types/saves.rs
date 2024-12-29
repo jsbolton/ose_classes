@@ -1,8 +1,8 @@
 use std::fmt::Display;
 
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 
-#[derive(Default, Clone, Deserialize, Debug)]
+#[derive(Default, Clone, Deserialize, Serialize, Debug)]
 pub struct Saves {
     #[serde(rename = "D")]
     pub doom: i64,

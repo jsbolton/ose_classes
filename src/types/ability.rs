@@ -1,7 +1,7 @@
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 use strum::Display;
 
-#[derive(Debug, Eq, PartialEq, Display, Clone, Deserialize)]
+#[derive(Debug, Eq, PartialEq, Display, Clone, Deserialize, Serialize)]
 pub enum Ability {
     #[strum(to_string = "STR")]
     #[serde(rename = "STR")]
@@ -28,7 +28,7 @@ pub enum Ability {
     Charisma,
 }
 
-#[derive(Clone, Debug, Deserialize)]
+#[derive(Clone, Debug, Deserialize, Serialize)]
 pub struct AbilityRequirement {
     pub ability: Ability,
 

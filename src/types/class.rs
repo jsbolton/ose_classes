@@ -2,12 +2,12 @@ use std::fmt::Display;
 
 use comfy_table::{Cell, CellAlignment, Table};
 use num_format::{Locale, ToFormattedString};
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 use strum::Display;
 
 use super::{AbilityRequirement, Level};
 
-#[derive(Default, Clone, Debug, Deserialize)]
+#[derive(Default, Clone, Debug, Deserialize, Serialize)]
 pub struct Class {
     pub title: String,
 
@@ -122,7 +122,7 @@ impl Display for Class {
     }
 }
 
-#[derive(Default, Clone, Debug, Eq, PartialEq, Display, Deserialize)]
+#[derive(Default, Clone, Debug, Eq, PartialEq, Display, Deserialize, Serialize)]
 pub enum Source {
     #[default]
     #[strum(serialize = "C", to_string = "Classic Fantasy")]

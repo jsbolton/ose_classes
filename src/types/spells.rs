@@ -1,8 +1,8 @@
 use std::fmt::Display;
 
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 
-#[derive(Default, Clone, Deserialize, Debug)]
+#[derive(Default, Clone, Deserialize, Serialize, Debug)]
 pub struct Spells {
     #[serde(rename = "1")]
     pub first: Option<i64>,
